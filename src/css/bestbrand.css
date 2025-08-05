@@ -1,0 +1,61 @@
+.bestbrand{
+    width: 100%;
+    height: 225px;
+    margin-top: 20px;
+    .bestbrand-center{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        .bestbrand-center-text{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            font-family: var(--font);
+            font-size: 25px;
+            font-weight: bold;
+        }
+         .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .swiper-slide-item{
+        width: 100%;
+            height: 60%;
+        img{
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+        }
+        
+      }
+      .line{
+            width: 1px;
+            height: 120px;
+            background-color: lightgray;
+            display: block;
+            margin: 10px;
+        
+        }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    }
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+:root{
+    --font:yekan;
+}
+@font-face {
+    font-family:yekan ;
+    src: url(/src/fonts/Yekan.ttf);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.swiper-button-disabled{
+    display: none;
+}

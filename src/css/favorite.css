@@ -1,0 +1,115 @@
+.favorite {
+  width: 100%;
+  height: 405px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .favorite-center {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    .favorite-center-top {
+      width: 100%;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .favorite-center-top-onvan {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+        p {
+          font-family: var(--font);
+          font-size: 24px;
+          padding: 5px;
+        }
+      }
+      .favorite-center-top-link {
+        width: 5%;
+        padding: 15px;
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          font-family: var(--font);
+          color: #59bed1;
+        }
+      }
+    }
+    .favorite-center-bottom {
+      width: 100%;
+      height: 350px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .swiper-slide-favorite-item {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          row-gap: 1px;
+          hr{
+            width: 70%;
+            margin-right:30%;
+            color: lightgray;
+          }
+          .swiper-slide-favorite-item-product {
+            width: 100%;
+            height: 31%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+            img {
+              width: 86px;
+              height: 86px;
+            }
+            h6 {
+              font-weight: bold;
+              color: #59bcd0;
+              font-family: var(--font);
+              font-size: 30px;
+            }
+            p {
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              box-orient: vertical;
+              -webkit-line-clamp: 2;
+              line-clamp: 2;
+              overflow: hidden;
+              font-family: var(--font);
+              font-size: 14px;
+              width: 90%;
+              line-height: 20px;
+            }
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+

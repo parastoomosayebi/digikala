@@ -1,0 +1,100 @@
+.super-amazing {
+  width: 100%;
+  height: 112px;
+  margin-bottom: 30px;
+  .super-amazing-center {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 20px;
+    
+
+    .super-amazing-center-right {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .super-amazing-center-right-pic {
+        img {
+          width: 66px;
+          height: 62px;
+          border-radius: 50%;
+        }
+      }
+      .super-amazing-center-right-off {
+        height: 20px;
+        background-color: green;
+        border-radius: 20px;
+        align-items: center;
+        span {
+          padding: 15px;
+          color: whitesmoke;
+        }
+      }
+    }
+    .super-amazing-center-left {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .super-amazing-center-left-products {
+        width: 492px;
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .super-amazing-center-left-products-item {
+          width: 74px;
+          height: 74px;
+          position: relative;
+          
+          img {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            display: block;
+            
+          }
+          span{
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            top: 45px;
+            left: 50px;
+            color: whitesmoke;
+            background-color: crimson;
+            border-radius: 10px;
+            font-size: 14px;
+            padding-top: 5px;
+            
+            
+          }
+        }
+      }
+      .super-amazing-center-left-text{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #449852;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        padding: 10px;
+        
+        span{
+          font-family: var(--font);
+          font-size: 16px;
+        }
+        img{
+          width: 22px;
+          height: 22px;
+        }
+      }
+    }
+  }
+}
