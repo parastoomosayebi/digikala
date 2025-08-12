@@ -1,0 +1,32 @@
+.more-topics{
+    width: 100%;
+    height: 255px;
+    margin-top: 10px;
+    .more-topics-center{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .more-topics-center-items{
+            width: 25%;
+            height: 100%;
+            border: 1px solid lightgray;
+            border-radius: 20px;
+            margin: 5px;
+            img{
+                width: 100%;
+                height: 220px;
+                object-fit: contain;
+                overflow: hidden !important;
+            }
+            p{
+                padding:0 10px;
+                font-size: 14px;
+                font-family: var(--font);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.read{
+    width: 100%;
+    height: 56px;
+    margin-top: 30px;
+    .read-center{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .read-center-right{
+            width: 50%;
+            height: 100%;
+            padding: 10px;
+            font-family: var(--font);
+        }
+        .read-center-left{
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            text-align: left;
+            
+            font-family: var(--font);
+            a{
+                text-decoration: none;
+                color: #59bcd0;
+            }
+        }
+    }
+}

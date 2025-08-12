@@ -33,7 +33,7 @@
         }
         span{
             font-family: var(--font);
-            font-size: 12px;
+            font-size: 11px;
             display: -webkit-box;
             -webkit-box-orient:vertical ;
             box-orient: vertical;

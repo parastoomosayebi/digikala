@@ -1,0 +1,32 @@
+.supermarket{
+    width: 17%;
+    height: 2%;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    z-index: 60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50px;
+    a{
+        font-family: var(--font);
+        font-size: 12px;
+        text-decoration: none;
+        color: whitesmoke;
+        
+     img{
+        width: 45px;
+        height: 45px;
+        
+        padding: 10px;
+        
+        
+    }
+    }
+    
+}
